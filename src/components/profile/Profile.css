@@ -1,0 +1,47 @@
+.profile-container {
+    padding: 20px;
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-input-container {
+    margin-bottom: 10px;
+  }
+  
+  .profile-label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+  }
+  
+  .profile-input {
+    width: 25% ; /* Adjust the width as needed */
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .profile-loading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-error {
+    color: red;
+    margin-top: 20px;
+  }
+  .profile-header1{
+    text-align: center;
+   
+  }
+  .profile-header2{
+    text-align: center;
+    background-color: yellowgreen;
+   padding: 5px;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid green;
+  }

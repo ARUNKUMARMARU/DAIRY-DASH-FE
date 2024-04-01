@@ -1,0 +1,73 @@
+SuperSignup.css
+
+.signup-container {
+    width: 40%;
+    margin: 50px auto; /* Center horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    
+}
+/* Signup.css */
+
+.signup-container1 {
+  
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+       height: 100%;
+        /* background-image: url('https://images.unsplash.com/photo-1707160038533-17251ac05234?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input[type="text"],
+.input[type="email"],
+.input[type="password"] {
+    width: calc(100% - 22px); /* Adjusted to fill container width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.form{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}

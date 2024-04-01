@@ -1,0 +1,15 @@
+ol {
+    counter-reset: my-counter; /* Reset the counter */
+    list-style-type: none; /* Remove default numbering */
+    padding-left: 0; /* Remove default padding */
+  }
+
+  ol li {
+    counter-increment: my-counter; /* Increment the counter for each list item */
+    margin-bottom: 0.5em; /* Add some space between items */
+  }
+
+  ol li::before {
+    content: "(" counter(my-counter) ")"; /* Add brackets with the counter value */
+    margin-right: 0.5em; /* Add some space between the brackets and the content */
+  }

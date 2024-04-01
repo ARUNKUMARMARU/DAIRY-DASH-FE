@@ -1,0 +1,24 @@
+.learn-more-button,
+.create-supply-button {
+  background-color: #1890ff; /* Blue color */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.learn-more-button:hover,
+.create-supply-button:hover {
+  background-color: #40a9ff; /* Darker blue color on hover */
+}
+.header{
+  font-size: large;
+  font-weight: bold;
+  background-color: lightgray;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  padding-top: 0;
+}
