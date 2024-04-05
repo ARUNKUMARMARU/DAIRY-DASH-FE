@@ -11,8 +11,8 @@ function Chat() {
   const [message, setMessage] = useState('');
   const [chatMessage, setChatMessage] = useState([]);
 
-  const socket = io("http://localhost:3001", {
-    path: "/",
+  const socket = io("https://dairy-dash-back-end-2.onrender.com", {
+    path: "/milk",
     secure: true,
     reconnect: true,
     rejectUnauthorized: false,
