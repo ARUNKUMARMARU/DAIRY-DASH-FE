@@ -13,7 +13,7 @@ function Admin() {
     const [success, setSuccess] = useState(false);
     
 
-    const socket = io("https://dairy-dash-back-end-2.onrender.com", {
+    const socket = io("https://dairy-dash-back-end-3.onrender.com", {
       path: "/milk",
       secure: true,
       reconnect: true,

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //const baseurl = "http://localhost:3003/api";
-const baseurl = "https://dairy-dash-back-end-2.onrender.com";
+const baseurl = "https://dairy-dash-back-end-3.onrender.com/api";
 
 const authInstance = axios.create({
     baseURL : baseurl,
