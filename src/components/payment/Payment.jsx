@@ -31,7 +31,7 @@ function Payment() {
     try {
      
       const stripe = await loadStripe('pk_test_51OzXnMCUbbaYImFXzjFwWb9Hare79aD6VIUaV6nKAa6yOXVQME2gyJyOUZGpF0mx2DWyGIO4uEPX8baNpoR29DJt007mrZBkwo');
-      const response = await axios.post('http://localhost:3003/api/payment', {
+      const response = await axios.post('https://dairy-dash-back-end-3.onrender.com/api/payment', {
         amount: price,
         quantity: quantity
       }, {headers:{Authorization:"bearer "+sessionStorage.getItem('token')}});
