@@ -203,6 +203,11 @@ const onCancel = ()=>{
           </Form.Item>     }
         
       </Form>
+      <p className='admin' >
+        <b> <u>Admin Credentials</u> </b> <br /> <br />
+        <b>Email</b> : admin123@gmail.com <br />
+        <b>Password</b> : 123
+      </p>
      
     </div>
     </div>

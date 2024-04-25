@@ -48,3 +48,18 @@
   width: 100;
   
 }
+.admin{
+  border : 5px solid yellow;
+  padding: 10px;
+  background-color: rgb(223, 223, 192);
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent; /* Start with a transparent border */
+  }
+  to {
+    border-color: yellow; /* Change the border color to red */
+  }
+}
